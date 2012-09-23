@@ -24,6 +24,7 @@
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
+  <project path="device/samsung/galaxys2" name="Bajee11/android_device_samsung_galaxys2" remote="gh" revision="ics" />
   <!-- <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" /> -->
   <!-- <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" /> -->
   <!-- <project path="device/moto/common" name="device/moto/common" /> -->
@@ -243,5 +244,10 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
+
+  <!-- NON AOSP STUFF -->
+  <project path="vendor/samsung" name="Bajee11/proprietary_vendor_samsung" remote="gh" revision="ics" />  
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="gh" revision="ics" />
 
 </manifest>
